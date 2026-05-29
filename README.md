@@ -1,4 +1,4 @@
-\# Resume AI Agent
+# Resume AI Agent
 
 
 
@@ -8,79 +8,79 @@ and cover letters by matching a master resume against any job description.
 
 
 
-\## What It Does
+## What It Does
 
 
 
-\- Reads a structured master resume from a JSON file
+- Reads a structured master resume from a JSON file
 
-\- Takes any job description as input
+- Takes any job description as input
 
-\- Generates a tailored resume highlighting the most relevant projects
+- Generates a tailored resume highlighting the most relevant projects
 
-\- Generates a personalized cover letter
+- Generates a personalized cover letter
 
-\- Performs full JD analysis with gap identification and interview prep
+- Performs full JD analysis with gap identification and interview prep
 
-\- Saves all outputs as text files locally
-
-
-
-\## How It Works
+- Saves all outputs as text files locally
 
 
 
-1\. Master resume stored as structured JSON with projects, skills, 
+## How It Works
+
+
+
+1. Master resume stored as structured JSON with projects, skills, 
 
 &#x20;  domain knowledge, and keywords
 
-2\. Job description pasted directly into terminal
+2. Job description pasted directly into terminal
 
-3\. LLM (Llama 3.3 70B via Groq API) reads both and generates 
+3. LLM (Llama 3.3 70B via Groq API) reads both and generates 
 
 &#x20;  tailored content using prompt engineering
 
-4\. Outputs saved to local outputs/ folder
+4. Outputs saved to local outputs/ folder
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
-\- Python
+- Python
 
-\- Groq API (Llama 3.3 70B)
+- Groq API (Llama 3.3 70B)
 
-\- python-dotenv
+- python-dotenv
 
-\- JSON
-
-
-
-\## Setup
+- JSON
 
 
 
-1\. Clone the repo
+## Setup
 
-2\. Install dependencies:
+
+
+1. Clone the repo
+
+2. Install dependencies:
 
 &#x20;  pip install groq python-dotenv
 
-3\. Create a .env file:
+3. Create a .env file:
 
 &#x20;  GROQ\_API\_KEY=your-key-here
 
-4\. Add your master\_resume.json
+4. Add your master\_resume.json
 
-5\. Run:
+5. Run:
 
 &#x20;  python resume\_agent.py
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -96,7 +96,7 @@ resume\_agent/
 
 
 
-\## Why I Built This
+## Why I Built This
 
 
 
