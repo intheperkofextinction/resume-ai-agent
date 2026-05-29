@@ -1,0 +1,225 @@
+{
+  "name": "Amal S",
+  "title": "Financial Data Analyst — Risk, Analytics & Modeling",
+  "tagline": "Self-directed analyst building institution-grade financial risk systems from scratch.",
+
+  "summary": "Self-taught Financial Data Analyst with deep hands-on expertise in credit risk, portfolio analytics, compliance systems, and financial modeling. Built end-to-end risk frameworks — covering PD, LGD, ECL, VaR, CVaR, AML/KYC, and Monte Carlo simulation — across datasets exceeding ₹11B in exposure, independently and without formal industry experience. Strong working knowledge of financial regulation including Basel III capital adequacy frameworks, RBI credit risk guidelines, and FATF AML compliance standards. Authored and published a 10-chapter technical guide on financial analytics used by aspiring analysts. Built an AI-powered resume tailoring agent using the Groq API and prompt engineering — currently exploring ML applications for behavioral pattern recognition and intervention systems.",
+
+  "domain_knowledge": {
+    "risk_frameworks": ["Credit Risk (PD, LGD, ECL)", "Market Risk (VaR, CVaR)", "Portfolio Risk", "Fraud Risk", "Operational Risk"],
+    "regulatory": ["Basel III — Capital Adequacy & Tier 1 Capital", "RBI Credit Risk Guidelines", "FATF AML Standards", "KYC Compliance Frameworks"],
+    "quantitative": ["Monte Carlo Simulation", "Sharpe Ratio", "Sortino Ratio", "Maximum Drawdown", "Correlation & Volatility Analysis", "Z-Score Normalization", "Credit Scoring Models"],
+    "finance_concepts": ["Financial Statements", "FP&A", "KPI Analysis", "Capital Adequacy", "NPL Ratio", "Liquidity Ratio", "ROA", "Financial Ratios"]
+  },
+
+  "skills": {
+    "programming": ["Python", "SQL", "PostgreSQL", "DAX"],
+    "bi_and_tools": ["Power BI", "Tableau", "Excel", "Jupyter", "GitHub", "Streamlit"],
+    "libraries": ["Pandas", "NumPy", "Matplotlib", "Plotly", "RapidFuzz", "Faker", "yahooquery"],
+    "ai_and_ml": ["Claude API", "Prompt Engineering", "LLM Application Development", "Groq API", "Scikit-learn (actively learning)"]
+  },
+
+  "links": {
+    "github": "https://github.com/intheperkofextinction",
+    "linkedin": "https://www.linkedin.com/in/amal-s-9a5b86310/",
+    "portfolio": "https://confirmed-wok-61d.notion.site/Amal-S-Data-Analyst-Financial-Risk-Business-Analytics-2f21d6c4cd848022b4c1eb8dedcc912e",
+    "book": "https://intheperkofextinction.github.io/financial-data-analytics-book/",
+    "AI Agent" : "https://github.com/intheperkofextinction/resume-ai-agent"
+  },
+
+  "publication": {
+    "title": "Financial Analytics for Data Analysts",
+    "type": "Self-published technical guide",
+    "year": "2024",
+    "platform": "Jupyter Book — GitHub Pages",
+    "link": "https://intheperkofextinction.github.io/financial-data-analytics-book/",
+    "description": "A 10-chapter technical guide covering financial statements, FP&A and variance analysis, KPI metrics, Python and SQL in finance, credit analysis, and real-world case studies. Built entirely with Jupyter Notebooks and published openly for aspiring analysts and FP&A professionals.",
+    "keywords": ["financial analytics", "FP&A", "Python", "SQL", "KPI", "financial statements", "credit analysis", "data analytics"]
+  },
+
+  "projects": [
+    {
+      "name": "Credit Risk Portfolio Dashboard — Lending Club",
+      "description": "End-to-end credit risk analytics pipeline evaluating portfolio health, default risk, and capital adequacy across 759K loans totaling ₹11.2B in exposure.",
+      "tools": ["Python", "PostgreSQL", "SQL", "Power BI"],
+      "keywords": ["credit risk", "PD", "LGD", "ECL", "default", "capital adequacy", "portfolio", "bank", "Basel", "risk concentration"],
+      "bullets": [
+        "Built end-to-end credit risk analytics pipeline using PostgreSQL and Power BI to evaluate portfolio exposure, default risk, and loss concentration across ~759K loans (₹11.2B total exposure)",
+        "Modeled Probability of Default (PD), Loss Given Default (LGD), and Expected Credit Loss (ECL) — estimating ₹520M in expected losses across the portfolio",
+        "Identified that lower credit grades (F & G) drove disproportionate loss concentration, enabling targeted risk mitigation",
+        "Evaluated capital adequacy against Basel-aligned 12% benchmark — surfaced regulatory risk from insufficient capital buffer at 10%",
+        "Delivered interactive Power BI dashboard for real-time monitoring of exposure, default trends, and portfolio risk distribution"
+      ],
+      "github": "https://github.com/intheperkofextinction/Credit-Risk-Portfolio-Dashboard-Lending-Club-SQL-Power-BI-",
+      "keywords_resume": ["credit risk", "ECL", "PD", "LGD", "Basel", "capital adequacy", "SQL", "Power BI", "portfolio analytics"],
+      "resume_instructions" : "Always include the ₹11.2B exposure and 759K loans numbers. Always mention the ₹520M ECL estimate. Always reference Basel III capital adequacy benchmark."
+    },
+    {
+      "name": "Portfolio Risk Analysis — VaR, CVaR & Monte Carlo Simulation",
+      "description": "Quantitative multi-asset portfolio risk model analyzing downside risk, return behavior, and stress scenarios using industry-standard risk metrics.",
+      "tools": ["Python", "Pandas", "NumPy", "Power BI"],
+      "keywords": ["VaR", "CVaR", "Monte Carlo", "portfolio", "Sharpe ratio", "Sortino ratio", "drawdown", "volatility", "quant", "risk-adjusted returns"],
+      "bullets": [
+        "Built quantitative portfolio risk model to analyze downside risk and return behavior across multi-asset equity and ETF portfolios",
+        "Computed VaR, CVaR, Sharpe Ratio, Sortino Ratio, and Maximum Drawdown to measure risk-adjusted performance",
+        "Implemented Monte Carlo simulation (60-day horizon, 1000+ scenarios) to stress-test portfolio outcomes under market uncertainty",
+        "Identified diversification gaps and volatility concentration through correlation and return distribution analysis",
+        "Built Power BI dashboard visualizing rolling risk metrics, simulated portfolio paths, and drawdown periods"
+      ],
+      "github": "https://github.com/intheperkofextinction/VaR-for-portfolio",
+      "keywords_resume": ["VaR", "CVaR", "Monte Carlo", "quantitative risk", "portfolio optimization", "Sharpe", "Sortino"],
+      "resume_instructions": "Always mention the 60-day Monte Carlo horizon and 1000+ scenarios. Emphasize quantitative risk modeling."
+    },
+    {
+      "name": "Financial Ratios & Credit Scoring Model",
+      "description": "Structured credit risk framework that transforms raw financial statements into composite credit scores and standardized ratings across sectors.",
+      "tools": ["Python", "Pandas", "NumPy", "yahooquery", "Power BI"],
+      "keywords": ["credit scoring", "financial ratios", "profitability", "leverage", "liquidity", "normalization", "credit ratings", "AAA", "CCC", "fundamentals"],
+      "bullets": [
+        "Built end-to-end pipeline: financial data extraction via yahooquery → ratio computation → normalization → composite scoring → credit rating assignment",
+        "Calculated financial ratios across profitability, leverage, liquidity, and efficiency dimensions using real financial statement data",
+        "Designed composite credit scoring model (0–100) using weighted metrics mapped to standardized ratings (AAA–CCC)",
+        "Implemented global min-max and sector-based z-score normalization to enable fair cross-sector comparison",
+        "Built Power BI dashboard for interactive firm-level risk analysis and sector-wide credit quality visualization"
+      ],
+      "github": "https://github.com/intheperkofextinction/financial-ratios-credit-scoring",
+      "keywords_resume": ["credit scoring", "financial ratios", "credit ratings", "normalization", "risk assessment", "fundamental analysis"]
+    },
+    {
+      "name": "IMF Financial Soundness Analysis — Banking Sector Stability",
+      "description": "Macro-level analysis of global banking stability using IMF Financial Soundness Indicators across four countries from 2005–2025.",
+      "tools": ["Python", "Pandas", "Matplotlib", "Power BI"],
+      "keywords": ["IMF", "banking stability", "Tier 1 capital", "NPL ratio", "liquidity ratio", "ROA", "time series", "macro risk", "emerging markets", "systemic risk"],
+      "bullets": [
+        "Analyzed global banking sector stability using IMF Financial Soundness Indicators across Brazil, France, Germany, and Japan (2005–2025)",
+        "Performed time-series analysis on Tier 1 Capital Ratio, NPL Ratio, Liquidity Ratio, and ROA to track systemic health over 20 years",
+        "Detected early stress signals during the 2008 financial crisis and COVID-19 period through pattern recognition in capital and asset quality metrics",
+        "Identified macro risk divergence between developed and emerging markets — highlighting structural differences in financial resilience",
+        "Built comparative dashboard communicating cross-country banking risk trends and regulatory capital adequacy patterns"
+      ],
+      "github": "https://github.com/intheperkofextinction/IMF-financial-soundness-analysis",
+      "keywords_resume": ["macroeconomic risk", "banking stability", "IMF", "time series analysis", "systemic risk", "capital adequacy", "NPL"]
+    },
+    {
+      "name": "AML/KYC Client Onboarding Pipeline Simulation",
+      "description": "End-to-end compliance simulation of a financial institution's client onboarding workflow covering AML screening, KYC verification, and risk classification.",
+      "tools": ["Python", "Pandas", "Streamlit", "Plotly", "Faker"],
+      "keywords": ["AML", "KYC", "compliance", "onboarding", "risk classification", "fraud", "FATF", "screening", "regulatory"],
+      "bullets": [
+        "Designed multi-stage onboarding pipeline covering document submission, AML screening, KYC verification, and compliance review",
+        "Generated realistic synthetic client dataset using Faker to simulate diverse onboarding scenarios including high-risk profiles",
+        "Implemented rule-based classification logic to categorize clients as approved, rejected, or escalated based on risk signals",
+        "Built interactive Streamlit dashboard to monitor approval rates, AML flags, onboarding bottlenecks, and risk distribution in real time"
+      ],
+      "github": "https://github.com/intheperkofextinction/Client-Onboarding-Simulation",
+      "keywords_resume": ["AML", "KYC", "compliance", "risk classification", "onboarding", "regulatory", "Streamlit"],
+      "resume_instructions": "Emphasize the end-to-end compliance workflow. Mention rule-based classification and Streamlit dashboard."
+    },
+    {
+      "name": "KYC Data Quality Audit & Risk Flagging",
+      "description": "Compliance-focused data audit system that validates KYC records, flags anomalies, and identifies high-risk clients through rule-based and fuzzy matching logic.",
+      "tools": ["Python", "Pandas", "RapidFuzz", "Matplotlib", "Power BI"],
+      "keywords": ["KYC", "data quality", "compliance", "fuzzy matching", "risk flagging", "audit", "data validation", "anomaly detection"],
+      "bullets": [
+        "Simulated and audited 500+ synthetic client onboarding records to identify data quality gaps and compliance risks in KYC workflows",
+        "Implemented rule-based validation to detect missing fields, incomplete KYC status, and high-risk client attributes",
+        "Applied fuzzy matching using RapidFuzz to standardize inconsistent country and entity name data — improving record accuracy",
+        "Designed risk flagging engine to surface high-risk clients and compliance anomalies for review",
+        "Built Power BI audit dashboard visualizing data quality issues, risk distribution, and flagging rates"
+      ],
+      "github": "https://github.com/intheperkofextinction/KYC-Data-Quality-Audit",
+      "keywords_resume": ["data quality", "KYC audit", "compliance analytics", "fuzzy matching", "risk flagging", "anomaly detection"]
+    },
+    {
+      "name": "Rule-Based Fraud Scoring Engine",
+      "description": "Explainable fraud detection system that scores transaction behavior and classifies users into risk tiers using engineered behavioral features.",
+      "tools": ["Python", "Pandas", "NumPy", "Faker", "Power BI"],
+      "keywords": ["fraud detection", "risk scoring", "transaction analysis", "anomaly detection", "behavioral features", "classification", "fraud monitoring"],
+      "bullets": [
+        "Developed rule-based fraud scoring engine to classify 1000+ simulated users into High, Medium, and Low risk tiers based on transaction behavior",
+        "Engineered behavioral features including transaction frequency, balance patterns, and abnormal transaction value signals",
+        "Designed rule-based anomaly detection logic targeting low balance exploitation, velocity abuse, and outlier transaction amounts",
+        "Built Power BI dashboard for real-time risk distribution monitoring, trend analysis, and high-risk user prioritization"
+      ],
+      "github": "https://github.com/intheperkofextinction/Rule-Based-Fraud-Scoring-Engine",
+      "keywords_resume": ["fraud detection", "risk scoring", "transaction monitoring", "anomaly detection", "behavioral analytics"]
+    },
+    {
+      "name": "Financial Market Analysis Dashboard",
+      "description": "Interactive market performance dashboard analyzing returns, volatility, and drawdown risk using SQL pipelines and DAX calculations in Power BI.",
+      "tools": ["SQL", "DAX", "Power BI"],
+      "keywords": ["market analysis", "time series", "volatility", "returns", "drawdown", "moving average", "dashboard", "DAX", "market risk"],
+      "bullets": [
+        "Built interactive financial dashboard analyzing market trends, daily returns, and risk exposure using SQL data pipelines and DAX calculations",
+        "Computed daily returns, rolling volatility, and moving averages from raw time-series financial data",
+        "Identified high-risk periods through drawdown analysis and P&L trend monitoring",
+        "Designed Power BI report for intuitive market performance tracking and risk visualization"
+      ],
+      "github": "https://github.com/intheperkofextinction/Financial-Market-Analysis-Dashboard",
+      "keywords_resume": ["market analysis", "time series", "volatility", "DAX", "Power BI", "financial dashboard"]
+    },
+    {
+      "name": "AI-Powered Resume Tailoring Agent",
+      "description": "LLM-powered agent that reads a master resume JSON and a job description, then generates a tailored resume and cover letter using Claude API and prompt engineering.",
+      "tools": ["Python", "Claude API", "Anthropic SDK", "python-dotenv", "JSON"],
+      "keywords": ["AI agent", "LLM", "prompt engineering", "Claude API", "automation", "NLP", "Python", "generative AI"],
+      "bullets": [
+        "Built end-to-end AI agent in Python that ingests job descriptions and generates tailored resumes and cover letters using the Claude API",
+        "Designed structured master resume JSON schema as the agent's knowledge base — enabling intelligent keyword matching and content selection",
+        "Engineered multi-prompt system with separate resume and cover letter generation prompts optimized for relevance and tone",
+        "Implemented secure API key management using environment variables and python-dotenv",
+        "Reduced job application preparation time from ~45 minutes to under 5 minutes per application"
+      ],
+      "github": "https://github.com/intheperkofextinction",
+      "keywords_resume": ["AI agent", "LLM", "Claude API", "prompt engineering", "automation", "generative AI", "Python"]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Independent Financial Data Analyst",
+      "type": "Self-Directed — Project Based",
+      "duration": "2022 – Present",
+      "bullets": [
+        "Designed and delivered 9 end-to-end financial risk and analytics projects — independently, from problem definition through data pipeline to dashboard delivery",
+        "Built credit risk pipelines processing 759K+ loan records (₹11.2B exposure), quantifying ECL, PD, LGD, and capital adequacy metrics at institution scale",
+        "Developed AML/KYC compliance simulations demonstrating domain knowledge across fraud detection, client screening, and regulatory risk",
+        "Translated complex financial data into interactive Power BI dashboards to communicate risk signals and support simulated business decisions",
+        "Authored and published a 10-chapter technical book on financial analytics — used by aspiring analysts and FP&A professionals"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (Pursued, 2018–2021)",
+      "institution": "East Point College, Bengaluru",
+      "note": "Left to pursue full-time self-directed learning in data analytics and financial modeling. Since then independently built 9 industry-grade projects, published a technical book, and developed a complete professional portfolio."
+    },
+    {
+      "degree": "Self-Directed Study — Financial Data Analytics & Risk Modeling",
+      "institution": "Independent",
+      "duration": "2022 – Present",
+      "areas": [
+        "Credit Risk Modeling (PD, LGD, ECL, Basel III)",
+        "Market Risk & Quantitative Methods (VaR, CVaR, Monte Carlo)",
+        "AML/KYC Compliance Frameworks",
+        "Python for Finance (Pandas, NumPy, Scikit-learn)",
+        "SQL & Business Intelligence (PostgreSQL, Power BI)",
+        "Financial Statement Analysis & FP&A",
+        "Machine Learning — currently studying (Scikit-learn, classification modeling)"
+      ]
+    }
+  ],
+
+  "meta": {
+    "total_projects": 9,
+    "years_self_directed": 3,
+    "largest_dataset": "759K loan records — ₹11.2B exposure",
+    "published_work": "Financial Analytics for Data Analysts (2024)",
+    "currently_building": "Behavioral ML system for smartphone addiction pattern recognition and friction-based intervention — combining synthetic data generation, EDA, and classification modeling",
+    "open_to": ["Data Analyst", "Financial Analyst", "Risk Analyst", "Credit Analyst", "Business Analyst — Finance"],
+    "location": "Bengaluru, India",
+    "availability": "Immediate"
+  }
+}
